@@ -24,7 +24,7 @@ Less concerned with telling a story or addressing a specific use case, they shou
 ```bash
 npm install @myorg/starlight-docs
 ```
-
+## Get started
 2. Create a content file under `src/content/docs`.
 
 3. Add metadata and structure.
@@ -51,8 +51,9 @@ Returns a document tree used by the site router.
 
 Renders the page with your theme and table of contents.
 
-## Troubleshooting
-
+1. `page.title` (string): page title.
+2. `page.content` (string): HTML content.
+3. `page.metadata` (string): HTML content.
 - If your docs are not showing, ensure the `src/content` folder is included in `content.config.ts`.
 - If a page is missing metadata, add `title` and `description` at the top of the file.
 
